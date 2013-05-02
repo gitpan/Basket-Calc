@@ -3,7 +3,53 @@ Changes from 2012-05-02 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.1 at 2013-05-02 14:00:15 +0000
+version 0.2 at 2013-05-02 16:13:58 +0000
+----------------------------------------
+
+  Change: fcf819d649ee9ca5c1240474301751e209a140f3
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 04:13:46 +0000
+
+    got versioning working with Perl::Critic 
+
+  Change: 8e929b1a41b80af8d3ca52c7682ca81cf5e34b43
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 03:33:28 +0000
+
+    removed VERSION stufff, it's auto generated and inserted 
+
+  Change: 5fdb15bf4978b5383900c3764c4ad1164263ffe4
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 02:52:21 +0000
+
+    fixed pod syntax 
+
+  Change: 79d25b2f3f777c1282bf306b504930dbb9ba0b07
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 02:47:08 +0000
+
+    fixed even more pod stuff for dzil 
+
+  Change: cef673646d90af4a3c2cfab131bf09d9bc58acb9
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 02:15:58 +0000
+
+    fixed versioning 
+
+  Change: aaf2729274f712d02dc5014c34aad7b9bcb7674f
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 02:11:17 +0000
+
+    more dist.ini tuning, fixed version 
+
+  Change: 8a6d6122292be9ee4e97345fc5db94a3c88d7238
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 02:00:35 +0000
+
+    v0.1 
+
+----------------------------------------
+version 0.1 at 2013-05-02 13:24:33 +0000
 ----------------------------------------
 
   Change: 0226911bc2f0b3fde01a40bba82bc5e70a61f82b

@@ -1,18 +1,17 @@
 package Basket::Calc;
 
 use 5.010;
-use strict;
-use warnings;
 use Mouse;
+
+# ABSTRACT: Basket/Cart calculation library with support for currency conversion, discounts and tax
+
+our $VERSION = '0.2'; # VERSION
+
 use Scalar::Util qw(looks_like_number);
 use Finance::Currency::Convert::Yahoo;
 use Carp;
 use feature 'switch';
 
-# ABSTRACT: Basket/Cart calculation library with support for currency conversion, discounts and tax
-
-
-use version; our $VERSION = qv('0.1');
 
 
 has 'debug' => (
@@ -277,7 +276,7 @@ Basket::Calc - Basket/Cart calculation library with support for currency convers
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 SYNOPSIS
 
@@ -299,14 +298,6 @@ Perhaps a little code snippet.
     
     print dump $basket->calculate;
 
-=head1 NAME
-
-Basket::Calc - Basket/Cart calculation library with support for currency conversion, discounts and tax
-
-=head1 VERSION
-
-Version 0.1
-
 =head1 ATTRIBUTES
 
 =head2 debug
@@ -323,15 +314,9 @@ Version 0.1
 
 =head2 calculate
 
-=head1 AUTHOR
-
-Tobias Kirschstein, C<< <lev at cpan.org> >>
-
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-basket-calc at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Basket-Calc>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
+Please report any bugs or feature requests on GitHub's issue tracker L<https://github.com/nupfel/Basket-Calc/issues>.
 
 =head1 SUPPORT
 
@@ -343,9 +328,9 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item * GitHub repository
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Basket-Calc>
+L<https://github.com/nupfel/Basket-Calc>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
@@ -355,23 +340,15 @@ L<http://annocpan.org/dist/Basket-Calc>
 
 L<http://cpanratings.perl.org/d/Basket-Calc>
 
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Basket-Calc/>
-
 =back
 
 =head1 ACKNOWLEDGEMENTS
 
-=head1 LICENSE AND COPYRIGHT
+=over 4
 
-Copyright 2013 Tobias Kirschstein.
+=item * Lenz Gschwendtner (@norbu09), for being an awesome mentor and friend.
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
+=back
 
 =head1 AUTHOR
 
