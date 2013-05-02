@@ -1,0 +1,54 @@
+==================================================
+Changes from 2012-05-02 00:00:00 +0000 to present.
+==================================================
+
+----------------------------------------
+version 0.1 at 2013-05-02 14:00:15 +0000
+----------------------------------------
+
+  Change: 0226911bc2f0b3fde01a40bba82bc5e70a61f82b
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 01:24:33 +0000
+
+    fixed typo in dist.ini, added README.pod 
+
+  Change: 817341dd46b5151dafa9f3562da1b18d543bc5d5
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-02 17:40:54 +0000
+
+    added github config 
+
+  Change: e847c0f8e01400611d7e46c5b673195ca90482bf
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-02 16:30:30 +0000
+
+    wrote proper tests 
+
+  Change: 99650c72b6286ba3d266ded7841f9169f9ba8bec
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-02 16:30:08 +0000
+
+    do not reset tax after calculate(), return only $item that was added,
+    add default quantity of 1 unless given 
+
+  Change: 2dca60e89d18c9ffcabb4051d13c92d0fc6bddea
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-02 15:12:16 +0000
+
+    added non-working test 
+
+  Change: 1f75a0e23751eb6dcdae4a8b636b87867c0f1e36
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-02 15:11:11 +0000
+
+    perl critic fix 
+
+  Change: dcc77a03f69398d2fef16c6c59ca23e7e02154ba
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-02 14:15:36 +0000
+
+    initial release 
+
+================
+End of releases.
+================
