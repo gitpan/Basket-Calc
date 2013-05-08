@@ -1,9 +1,31 @@
 ==================================================
-Changes from 2012-05-02 00:00:00 +0000 to present.
+Changes from 2012-05-08 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.2 at 2013-05-02 16:13:58 +0000
+version 0.3 at 2013-05-08 03:15:39 +0000
+----------------------------------------
+
+  Change: 1599b6a27432db44c80bd0e3fcf3ac0ce579a2fe
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-08 15:15:20 +0000
+
+    fixed rounding for some perl versions 
+
+  Change: 271a5607f477dd07f5fe5b96020530798318d3b2
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 04:18:54 +0000
+
+    create GPG signed tags 
+
+  Change: b09d06e745494b6992f1c8a353b565cbdd20c7e1
+  Author: Tobias Kirschstein <lev@ideegeo.com>
+  Date : 2013-05-03 04:14:15 +0000
+
+    v0.2 
+
+----------------------------------------
+version 0.2 at 2013-05-02 16:13:46 +0000
 ----------------------------------------
 
   Change: fcf819d649ee9ca5c1240474301751e209a140f3

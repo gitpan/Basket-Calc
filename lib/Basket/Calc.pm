@@ -5,7 +5,7 @@ use Mouse;
 
 # ABSTRACT: Basket/Cart calculation library with support for currency conversion, discounts and tax
 
-our $VERSION = '0.2'; # VERSION
+our $VERSION = '0.3'; # VERSION
 
 use Scalar::Util qw(looks_like_number);
 use Finance::Currency::Convert::Yahoo;
@@ -260,6 +260,10 @@ sub _set_debug {
 sub _round {
     my ($float) = @_;
 
+    # some stupid perl versions on some platforms can't round correctly and i
+    # don't want to use more modules
+    $float += 0.001 if ($float =~ m/\.[0-9]{2}5/);
+
     return sprintf('%.2f', sprintf('%.10f', $float)) + 0;
 }
 
@@ -276,7 +280,7 @@ Basket::Calc - Basket/Cart calculation library with support for currency convers
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 SYNOPSIS
 
