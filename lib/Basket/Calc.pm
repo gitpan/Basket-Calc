@@ -2,16 +2,15 @@ package Basket::Calc;
 
 use 5.010;
 use Mouse;
+use experimental 'smartmatch';
 
 # ABSTRACT: Basket/Cart calculation library with support for currency conversion, discounts and tax
 
-our $VERSION = '0.3'; # VERSION
+our $VERSION = '0.4'; # VERSION
 
 use Scalar::Util qw(looks_like_number);
 use Finance::Currency::Convert::Yahoo;
 use Carp;
-use feature 'switch';
-
 
 
 has 'debug' => (
@@ -203,7 +202,7 @@ sub calculate {
         discount   => 0,
     };
 
-    print __PACKAGE__ . " -- calculating totals --\n";
+    print __PACKAGE__ . " -- calculating totals --\n" if $self->debug;
 
     # calculate net
     foreach my $item (@{ $self->items }) {
@@ -280,7 +279,7 @@ Basket::Calc - Basket/Cart calculation library with support for currency convers
 
 =head1 VERSION
 
-version 0.3
+version 0.4
 
 =head1 SYNOPSIS
 

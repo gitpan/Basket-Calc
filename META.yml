@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.130880'
 license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,10 +18,10 @@ requires:
   Finance::Currency::Convert::Yahoo: 0
   Mouse: 0
   Scalar::Util: 0
-  feature: 0
+  experimental: 0
   perl: 5.010
 resources:
   bugtracker: https://github.com/nupfel/Basket-Calc/issues
   homepage: https://github.com/nupfel/Basket-Calc/wiki
   repository: git://github.com/nupfel/Basket-Calc.git
-version: 0.3
+version: 0.4

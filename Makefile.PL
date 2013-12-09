@@ -24,12 +24,12 @@ my %WriteMakefileArgs = (
     "Finance::Currency::Convert::Yahoo" => 0,
     "Mouse" => 0,
     "Scalar::Util" => 0,
-    "feature" => 0
+    "experimental" => 0
   },
   "TEST_REQUIRES" => {
     "Test::More" => 0
   },
-  "VERSION" => "0.3",
+  "VERSION" => "0.4",
   "test" => {
     "TESTS" => "t/*.t"
   }
