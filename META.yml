@@ -19,9 +19,9 @@ requires:
   Mouse: 0
   Scalar::Util: 0
   experimental: 0
-  perl: 5.010
+  perl: 5.010001
 resources:
   bugtracker: https://github.com/nupfel/Basket-Calc/issues
   homepage: https://github.com/nupfel/Basket-Calc/wiki
   repository: git://github.com/nupfel/Basket-Calc.git
-version: 0.4
+version: 0.5

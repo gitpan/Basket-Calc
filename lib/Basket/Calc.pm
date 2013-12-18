@@ -1,12 +1,12 @@
 package Basket::Calc;
 
-use 5.010;
+use 5.010001;
 use Mouse;
 use experimental 'smartmatch';
 
 # ABSTRACT: Basket/Cart calculation library with support for currency conversion, discounts and tax
 
-our $VERSION = '0.4'; # VERSION
+our $VERSION = '0.5'; # VERSION
 
 use Scalar::Util qw(looks_like_number);
 use Finance::Currency::Convert::Yahoo;
@@ -279,7 +279,7 @@ Basket::Calc - Basket/Cart calculation library with support for currency convers
 
 =head1 VERSION
 
-version 0.4
+version 0.5
 
 =head1 SYNOPSIS
 
